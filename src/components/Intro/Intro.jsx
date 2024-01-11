@@ -28,9 +28,9 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span>Jenish Vagadiya</span>
           <span>
-            Frontend Developer with high level of experience in web designing
+            MERN stack Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
@@ -48,7 +48,7 @@ const Intro = () => {
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img src={boy} alt="" style={{ width: '350px', height: '390px' }}/>
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}

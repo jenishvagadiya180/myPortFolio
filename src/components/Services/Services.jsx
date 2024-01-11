@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from "./resume.pdf";
 
 const Services = () => {
   // context
@@ -27,9 +27,9 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        I specialize in MERN stack development, delivering top-notch, responsive web applications by seamlessly integrating
           <br />
-          ispum is simpley dummy text of printing
+          MongoDB, Express.js, React.js, and Node.js. Transform your ideas into exceptional digital solutions with my expertise.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -46,20 +46,27 @@ const Services = () => {
         >
           <Card
             emoji={HeartEmoji}
-            heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            heading={"Frontend"}
+            detail={
+              "Html, Css, Sass, LESS, Bootstrap, Tailwind CSS,  JavaScript, React-js, Next-js"
+            }
           />
         </motion.div>
         {/* second card */}
         <motion.div
+        
           initial={{ left: "-11rem", top: "12rem" }}
           whileInView={{ left: "-4rem" }}
           transition={transition}
         >
           <Card
+          
             emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            heading={"Backend"}
+            
+            detail={
+              "Nodejs, NestJS, Express, GraphQl, AWS Concepts like Lamda, GraphQL, Cdk, VPC, EC2, CloudFront, Relational Database Service, DynamoDB, IAM, SES, Code Commit, Code Pipeline, SNS, Sqs, AppSync, S3 Bucket, "
+            }
           />
         </motion.div>
         {/* 3rd */}
@@ -70,10 +77,8 @@ const Services = () => {
         >
           <Card
             emoji={Humble}
-            heading={"UI/UX"}
-            detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
-            }
+            heading={"DataBase Related."}
+            detail={"Mongodb, PostgreSQL, Mongoose, Sequelize, DynamoDB, Firebase, MySQL Server"}
             color="rgba(252, 166, 31, 0.45)"
           />
         </motion.div>
